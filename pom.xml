@@ -14,7 +14,9 @@
     </parent>
 
     <modules>
-        <module>dubbo-b</module>
+        <module>dubbo_b</module>
+        <module>dubbo_a</module>
+        <module>dubbo_b_api</module>
     </modules>
 
     <dependencyManagement>

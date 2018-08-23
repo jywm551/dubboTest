@@ -12,6 +12,8 @@
     <!-- 用dubbo协议在20880端口保留服务-->
     <dubbo:protocol name="dubbo" port="20880"/>
     <!-- 将该接口暴露到dubbo中 -->
-    <dubbo:service interface="com.yu.dubbo.service.UserService" ref="userServiceImpl"/>
+    <dubbo:service interface="com.yu.dubboBApi.service.UserService" ref="userServiceImpl"/>
+    <!-- 将具体的实现类加入到Spring的容器中-->
+    <bean id="userServiceImpl" class="com.yu.dubboBApi.service.impl.UserServiceImpl"/>
 
 </beans>

@@ -1,6 +1,7 @@
-package com.yu.dubbo.service;
+package com.yu.dubboB.service;
 
-import com.yu.dubbo.pojo.User;
+
+import com.yu.dubboB.pojo.User;
 
 import java.util.List;
 
