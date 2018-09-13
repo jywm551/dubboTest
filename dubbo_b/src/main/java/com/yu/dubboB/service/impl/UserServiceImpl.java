@@ -18,7 +18,7 @@ public class UserServiceImpl implements UserService {
         for (int i = 0; i < 10; i++) {
             User user = new User();
             user.setAge(20 + i);
-            user.setId(Long.valueOf(i + 1));
+            user.setId((long) (i + 1));
             user.setPassword("123456");
             user.setUserName("username_" + i);
             list.add(user);
